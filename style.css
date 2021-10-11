@@ -12,6 +12,7 @@
     height: 500px;
     box-sizing: border-box;
 }
+/* style bouton */
 .bouton{
     height: 60px;
     width: 60px;
@@ -19,15 +20,20 @@
     padding-left: 0px;
     border: none;
     box-sizing: border-box;
-    outline: aquamarine;
 
 }
 #egal{
     box-sizing: border-box;
     width: 38.5%;
+    padding-top: 5px;
 }
+/* champs de saisie */
 #inputData{
-    width: 246px;
-    height: 40px;
-    margin:40px 0px 20px 0px;
+    width: 252px;
+    height: 100px;
+    border: none;
+    background-color: azure;
+}
+.bouton:hover,#egal:hover{
+    background-color: aquamarine;
 }
