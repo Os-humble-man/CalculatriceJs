@@ -9,25 +9,33 @@
     <script src='main.js' async></script>
 </head>
 <body>
-        <section id="display">
-            <button class="bouton">C</button>
-            <button class="bouton">Sup</button>
-            <button class="bouton">7</button>
-            <button class="bouton">8</button>
-            <button class="bouton">9</button>
-            <button class="bouton">4</button>
-            <button class="bouton">5</button>
-            <button class="bouton">6</button>
-            <button class="bouton">1</button>
-            <button class="bouton">2</button>
-            <button class="bouton">3</button>
-            <button class="bouton">0</button>
-            <button class="bouton">/</button>
-            <button class="bouton">-</button>
-            <button class="bouton">*</button>
-            <button class="bouton">+</button>
-            <button class="bouton">.</button>
-            <button class="bouton">=</button>
-        </section>
+    <div class="container">
+        <div class="calc">
+            <input id="inputData" placeholder="0">
+            <br>
+            <button class="bouton" onclick="FbntClick(7)">7</button>
+            <button class="bouton" onclick="FbntClick(8)">8</button>
+            <button class="bouton" onclick="FbntClick(9)">9</button>
+            <button class="bouton" onclick="FbntClick('+')">+</button>
+
+            <br>
+            <button class="bouton" onclick="FbntClick(4)">4</button>
+            <button class="bouton" onclick="FbntClick(5)">5</button>
+            <button class="bouton" onclick="FbntClick(6)">6</button>
+            <button class="bouton" onclick="FbntClick('/')">/</button>
+            <br>
+            <button class="bouton" onclick="FbntClick(1)">1</button>
+            <button class="bouton" onclick="FbntClick(2)">2</button>
+            <button class="bouton" onclick="FbntClick(3)">3</button>
+            <button class="bouton" onclick="FbntClick('-')">-</button>
+            <br>
+            <button class="bouton" onclick="FbntClick('.')">.</button>
+            <button class="bouton" onclick="FbntClick(0)">0</button>
+            <button class="bouton" onclick="sup()">c</button>
+            <button class="bouton" onclick="FbntClick('*')">*</button>
+             <br>
+            <button class="bouton" id="egal" onclick="egal()">=</button>
+        </div>
+    </div>
 </body>
 </html>
